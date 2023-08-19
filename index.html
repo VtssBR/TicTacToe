@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script> 
+
+    <title>TicTacToe</title>
+</head>
+<body>
+    <header>
+        <h1>JOGO DA VELHA</h1>
+        <div id="scoreBoard">
+            <input id="player1" placeholder="Nome do jogador 1: ">
+            <p>X</p>
+            <input id="player2" placeholder="Nome do jogador 2: ">
+        </div>
+        <button id="buttonStart">START</button>
+        <h3>VEZ DE: <span id="turnPlayer"></span></h3> 
+    </header>
+    <main data-theme="dark"> 
+            <div id="hashtagBox">
+                <button class="buttonsBox" data-position="0.0"></button>
+                <button class="buttonsBox" data-position="0.1"></button>
+                <button class="buttonsBox" data-position="0.2"></button>
+                <button class="buttonsBox" data-position="1.0"></button>
+                <button class="buttonsBox" data-position="1.1"></button>
+                <button class="buttonsBox" data-position="1.2"></button>
+                <button class="buttonsBox" data-position="2.0"></button>
+                <button class="buttonsBox" data-position="2.1"></button>
+                <button class="buttonsBox" data-position="2.2"></button>
+            </div>
+    </main>
+    
+</body>
+</html>
